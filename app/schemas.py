@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 from typing import List
 
-class PredictRequest(BaseModel):
+class GestureInput(BaseModel):
     features: List[float]
 
-class PredictResponse(BaseModel):
+class PredictionResponse(BaseModel):
     direction: str

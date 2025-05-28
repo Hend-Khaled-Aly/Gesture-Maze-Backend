@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.schemas import GestureInput, PredictionResponse
 from app.model import predict_direction
 
-app = FastAPI()
+app = FastAPI(title="Gesture Maze Solver")
 
 @app.get("/")
 def read_root():
