@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+xgboost
+numpy
+scikit-learn
+pydantic
+mlflow
+pytest
+python-multipart  
+prometheus-client
